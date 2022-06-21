@@ -1,0 +1,163 @@
+body {
+  background-color: #F2F2F2;
+  color: #212529;
+}
+
+#porcentagem {
+  color: blue;
+}
+
+.texto1 {
+  text-align: center;
+}
+
+
+.titulo {
+  text-align: center;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+/*parte da banner*/
+.banner {
+  position: relative;
+  color: #F2F2F2;
+}
+
+.banner_img {
+  width: 100%;
+  height: calc(100vh - 3.5rem);
+  background: url(../smart-home/img/smart_home1.webp) no-repeat center / cover;
+  background-attachment: fixed;
+}
+
+.banner_texto {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 200px #000000;
+}
+
+.banner_titulo {
+  text-align: center;
+  font-size: 8rem;
+}
+
+.banner_p {
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Parte do conteudo principal*/
+.principal {
+  width: 65%;
+  margin: 5rem auto 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.principal_p {
+  margin-bottom: 2rem;
+}
+
+.principal_titulo {
+  font-size: 2.7rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Rodapé */
+
+.rodape {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  color: #F2F2F2;
+}
+
+.rodape p {
+  margin-top: 1rem;
+}
+
+.navbar-brand {
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.navbar-brand:hover {
+  color: #F2F2F2;
+}
+
+/* parte das imagens*/
+
+.img_01,
+.img_03{
+  width: 35%;
+  margin: 2rem 0 4rem 0;
+}
+
+.img_02 {
+  margin-bottom: 1rem;
+}
+
+.img_04 {
+  width: 60%;
+  margin: 2rem 0 4rem 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .principal {
+    width: 90%;
+    margin: 3.5rem auto;
+    text-align: justify;
+  }
+
+  .principal_titulo {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .principal_p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .banner_img {
+    width: 100%;
+    background: url(./img/smart_home1.webp) no-repeat center / cover;
+  }
+
+  .banner_titulo {
+    font-size: 4rem;
+  }
+
+  .banner_p {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding: .5rem 0 0 0;
+  }
+
+  .rodape {
+    padding: .5rem 0;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .img_01,
+  .img_03,
+  .img_04 {
+    width: 80%;
+  }
+}
